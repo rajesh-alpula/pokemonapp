@@ -1,0 +1,7 @@
+<div>
+    <div>Name : {{pokemon.name}}</div>
+    <div>Abilities: <span *ngFor="let abilities of pokemon.abilities">{{abilities.ability.name}} </span></div>
+    <div>Forms: <span *ngFor="let forms of pokemon.forms">{{forms.name}}</span></div>
+    <div>Species: {{pokemon.species.name}}</div>
+    <div>Types: <span *ngFor="let types of pokemon.types">{{types.type.name}}</span></div>
+</div>
